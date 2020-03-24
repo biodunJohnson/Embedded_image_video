@@ -1,0 +1,33 @@
+body{
+    background-color: thistle;
+    font-size: 40px;
+}
+div.pon{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+
+}
+.pon img{
+    width: 30px;
+    height: 20px;
+    padding-left: 18px;
+    margin-top: 25px;
+
+}
+.pon span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 80px;
+    margin-right: 80px;
+}
+.pon input{
+    height: 35px;
+    width: 50%;
+    border: solid 1px rgb(209, 94, 94);
+    padding-left: 50px;
+    margin-left: 50px;
+    
+}
+
+

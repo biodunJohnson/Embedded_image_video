@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 body{
     background-color: thistle;
     font-size: 40px;
@@ -19,26 +20,14 @@ a.fa fa-bars{
     padding-right: 2px;
     margin-right: 2px;
 }
-a.fa fa-video-camera {
-    color: cornflowerblue;
-    padding-right: 0 auto;
-    margin-right: 0 auto;
+a.font_pic {
+    color: rgb(14, 94, 243);
+    padding-right: 2px ;
+    margin-right: 2px;
+    float: right;
 }
-a. fa fa-windows  {
-    color: cornflowerblue;
-    padding-right: 0 auto;
-    margin-right: 0 auto;
-}
-a. fa fa-bell {
-    color: cornflowerblue;
-    padding-right: 0 auto;
-    margin-right: 0 auto;
-}
-a. fa fa-user-secret {
-    color: cornflowerblue;
-    padding-right:  0 auto;
-    margin-right: 0 auto;
-}
+
+
 a:hover{
     color: crimson;
 }
@@ -63,5 +52,70 @@ a:hover{
     margin-left: 50px;
     
 }
+button{
+    height: 35px;
+    width: 2%;
+    border: solid 1px rgb(209, 94, 94);
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 2px;
+    
+}
+div.video{
+    text-align: center;
+    background-color: honeydew;
+    margin-top: 10px;
+}
+div.video iframe {
+    margin-top: 5px;
 
+}
+h1.title_video{
+    font-size: 20px;
+    color:black ;
+    font-weight: bold;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    margin-bottom: 3px;
+}
+span.view_numb{
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 20px;
+}
 
+span.like{
+    font-size: 24px;
+    color: grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: right;
+    margin-left: 20px;
+    padding-left: 10px;
+    
+
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  button.subscri{
+      height: 30px;
+      color: red;
+  }
+  hr{
+      line-height: 50%;
+  }

@@ -8,6 +8,40 @@ div.pon{
     margin: 0px;
 
 }
+
+a{
+    text-decoration: none;
+
+}
+
+a.fa fa-bars{
+    color: cornflowerblue;
+    padding-right: 2px;
+    margin-right: 2px;
+}
+a.fa fa-video-camera {
+    color: cornflowerblue;
+    padding-right: 0 auto;
+    margin-right: 0 auto;
+}
+a. fa fa-windows  {
+    color: cornflowerblue;
+    padding-right: 0 auto;
+    margin-right: 0 auto;
+}
+a. fa fa-bell {
+    color: cornflowerblue;
+    padding-right: 0 auto;
+    margin-right: 0 auto;
+}
+a. fa fa-user-secret {
+    color: cornflowerblue;
+    padding-right:  0 auto;
+    margin-right: 0 auto;
+}
+a:hover{
+    color: crimson;
+}
 .pon img{
     width: 30px;
     height: 20px;
